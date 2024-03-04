@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <!--Icono de la pagina-->
+    <link rel="icon" href="./imagenes/chocolate.png">
+    <!--conexion a hoja de estilos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--conexion con estilo css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Barra de navegacion principal -->
+    <header>
+        <nav class="navbar bg-body-tertiary">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./imagenes/chocolate.png" alt="Chocolateria Fina" width="50" height="50">
+              </a>
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./nosotros.html">Quienes Somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"  href="./productos.html">Producto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active"  aria-current="page" href="./contactos.html">Contactanos</a>
+                      </li>
+                      <li class="nav-item">
+                        <img src="./imagenes/busqueda.png" alt="" width="25" height="25">
+                      </li>
+                      <li class="nav-item">
+                        <img src="./imagenes/carrito-de-compras.png" alt="" width="25" height="25">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+          </nav>
+    </header>
+<br>
+<!--Formulario de contactanos -->
+            <div class="contenedor_formulario">
+                <div class="card_contacto" style="width: 30rem;">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputname1" class="form-label">Nombre</label>
+                              <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp">
+                              <div id="nameHelp" class="form-text">Escribe tu nombre</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputemail1" class="form-label">Correo</label>
+                                <input type="email" class="form-control" id="exampleInputemail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Escribe tu correo</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </form>
+                    </div>
+                  </div>
+                </div> 
+
+<!--text de informacion de contactanos -->
+                <h3  class="titulo_informacion_encuentranos">Encuentranos en:</h3>
+
+  <div class="encuentranos">
+            <div class="card" style="width: 30rem;">
+                <div class="card-body">
+                      <img src="./imagenes/globo.png" alt="" width="20" height="20"><h5>Chocolatedeelsalvador.com</h5> 
+                      <img src="./imagenes/correo.png" alt=""width="20" height="20"><h5>chocolatedeelsalvador@gmail.com</h5>
+                      <img src="./imagenes/whatsapp.png" alt="" width="20" height="20"> <h5>7865-5862</h5>
+                      <img src="./imagenes/marcador.png" alt=""width="20" height="20"><h5>13 Calle Poniente, San Salvador 4427​ </h5>
+                </div>
+          </div>
+  </div>  
+  <br>
+  <!--Mapa de direcion -->
+  <div class="contenedor_mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62019.484422541405!2d-89.25826257832036!3d13.705256100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63311990004523%3A0xa062b94523bf0340!2sCHOCOLATE%20DEL%20NEGRITO!5e0!3m2!1ses-419!2ssv!4v1709187773507!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <br>  
+<!--Pie de pagina -->
+    <footer>
+        <h4 class="pie">Copyright © 2024 Guanacos - Powered by Guanacos</h4>
+        <div class="siguenos">
+          <h4>siguenos en:</h4>
+          <img src="./imagenes/facebook.png" alt="facebook" width="30" height="30">
+          <img src="./imagenes/tik-tok.png" alt="tik-tok" width="30" height="30">
+          <img src="./imagenes/whatsapp.png" alt="whatsapp" width="30" height="30">
+          <img src="./imagenes/album.png" alt="Instagram" width="30" height="30">
+        </div>
+     
+    </footer> 
+
+    <!--conexion con scrip de boopstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

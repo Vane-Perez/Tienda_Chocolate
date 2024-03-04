@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.carousel-inner img {
+    width: 1000px;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+}
+
+.carousel-inner{
+    display: flex;
+    height: 500px;
+
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 90px;
+    
+}
+.tarjetas img{
+    width: 100%;
+    height: 200px;
+}
+.tarjeta_titulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif; 
+    padding: 20px;
+}
+.tarjeta_titulo h1{
+    font-size: 90px;
+}
+
+
+footer{
+    display: flex;
+    background-color: gray;
+    justify-content:space-evenly;
+    
+}
+.card_contacto{
+    display: flex;
+   padding: 40px;
+    background-color: rgb(214, 213, 211);
+
+}
+.contenedor_formulario, .contenedor_mapa, .titulo_informacion_encuentranos, .encuentranos, .imagen_venta, .somos_video {
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo_productos{
+    margin: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+.contenedor_productos_1{
+   margin-block-start: -5%;
+}
+
+.contenedor_productos_1 h1, .contenedor_producto_fila2 h1{
+   font-size:90px;
+}
+
+.somos p{
+    font-family:"Nanum Gothic", sans-serif;
+    margin: 20px;
+}
